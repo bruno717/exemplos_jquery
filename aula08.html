@@ -1,0 +1,59 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+
+<html xmlns="http://www.w3.org./1999/xhtml">
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<head>
+		<title>jQuery Aula08</title>
+
+		<style style="text/css">
+
+			fieldset{
+				background: silver;
+			}
+
+		</style>
+
+		<script type="text/javascript" src="js/jquery-1.11.2.js"></script>
+		<script type="text/javascript" src="js/aula/08.js"></script>
+	</head>
+
+	<body>
+		<div>
+		<fieldset>
+			<legend>Formulário</legend>
+			<form>
+
+				<label>Text:</label>
+				<input type="text" id="nome"><br/>
+				<label>Radios:</label>
+				<input type="radio" name="sexo" value="masculino">Masculino
+				<input type="radio" name="sexo" value="feminino">Feminino<br/>
+				<label>Password:</label>
+				<input type="password" id="senha"><br/>
+				<label>Checkbox:</label>
+				<input type="checkbox" value="html">HTML
+				<input type="checkbox" value="css">CSS
+				<input type="checkbox" value="jquery">JQUERY<br/>
+
+				<label>Select:</label>
+				<SELECT>
+					<OPTION value="brasil">BRASIL</OPTION>
+					<OPTION value="argentina">ARGENTINA</OPTION>
+					<OPTION value="chile">CHILE</OPTION>
+					<OPTION value="colombia">COLÔMBIA</OPTION>
+				</SELECT><br/>
+				<label>File:</label>
+				<input type="image" id="arquivo">
+				<input type="button" id="botao" value="Enviar arquivo"><br/>
+
+				<label>Textarea:</label><br/>
+				<textarea name="comment" >Escreva aqui...</textarea><br/>
+				<input type="submit" id="submit" value="Submit">
+				<input type="reset" id="reset" value="Reset">
+				<input type="button" id="button" value="button">
+
+			</form>
+		</fieldset>
+		</div>	
+	</body>		
+</html>
